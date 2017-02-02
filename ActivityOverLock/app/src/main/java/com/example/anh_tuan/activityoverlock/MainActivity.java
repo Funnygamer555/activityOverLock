@@ -26,15 +26,15 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        /**
+
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED
                 | WindowManager.LayoutParams.FLAG_FULLSCREEN
                 | WindowManager.LayoutParams.FLAG_TURN_SCREEN_ON);
-         **/
+
 
         setContentView(R.layout.activity_main);
 
-        /**
+
         findViewById(R.id.activity_main).setSystemUiVisibility(
                 View.SYSTEM_UI_FLAG_LAYOUT_STABLE
                         | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
                         | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION // hide nav bar
                         | View.SYSTEM_UI_FLAG_FULLSCREEN // hide status bar
                         | View.SYSTEM_UI_FLAG_IMMERSIVE);
-         **/
+         
 
         Button btn = (Button) findViewById(R.id.button);
         Button btn1 = (Button) findViewById(R.id.button2);
